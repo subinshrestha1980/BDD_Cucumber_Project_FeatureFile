@@ -1,0 +1,225 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3908448300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "StepDefinations.User_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8354475300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.beforeRun()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "1 User should be able to login with the valid credentials",
+        "description": "",
+        "id": "validate-techfios-login-functionality;1-user-should-be-able-to-login-with-the-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 747862800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 264651400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc123",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinations.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4555998700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the signin button",
+            "match": {
+              "location": "StepDefinations.user_clicks_on_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354870700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on the Dashboard page",
+            "match": {
+              "location": "StepDefinations.user_should_land_on_the_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95722500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click in bank and cash",
+            "match": {
+              "location": "StepDefinations.user_click_in_bank_and_cash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 777028300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on new account",
+            "match": {
+              "location": "StepDefinations.user_click_on_new_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7783067200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User fill the form entnering \"Larisha Shresthaa\" and \"Personal Account\" and \"USD 5000\" and \"1382040\" and \"Prajwalta Rajbhandari\" and \"9779841657440\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Larisha Shresthaa",
+                  "offset": 30
+                },
+                {
+                  "val": "Personal Account",
+                  "offset": 54
+                },
+                {
+                  "val": "USD 5000",
+                  "offset": 77
+                },
+                {
+                  "val": "1382040",
+                  "offset": 92
+                },
+                {
+                  "val": "Prajwalta Rajbhandari",
+                  "offset": 106
+                },
+                {
+                  "val": "9779841657440",
+                  "offset": 134
+                }
+              ],
+              "location": "StepDefinations.user_fill_the_form_entnering_and_and_and_and_and(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              5,
+              7,
+              9,
+              11,
+              13
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1437012000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click in Submit Button",
+            "match": {
+              "location": "StepDefinations.user_click_in_Submit_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2319106700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Should land on Account Page",
+            "match": {
+              "location": "StepDefinations.User_Should_land_on_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@BankLogin"
+          },
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Techfios Login Functionality",
+    "description": "",
+    "id": "validate-techfios-login-functionality",
+    "keyword": "Feature",
+    "uri": "features/bankncashpage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BankLogin"
+      }
+    ]
+  }
+]
